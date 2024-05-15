@@ -1,0 +1,76 @@
+.mainTitle{
+    color: wheat;
+    margin-left: 600px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+
+input.searchBar {
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 1000px;
+    height: 60px;
+    font-size: 15px;
+    background-color: wheat; 
+    color: rgba(16, 13, 9, 0.992); 
+    border: 1px solid #ccc; 
+    border-radius: 25px; 
+}
+
+
+
+body{
+    background: url(./Home.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+ }
+
+
+/* Define stable widths for table fields */
+.email, .type, .date, .image, .action {
+    width: 90px; /* Adjust width as needed */
+}
+table .description{
+    width: 350px;
+}
+
+/* Additional styling for image field */
+.image {
+    width: 20px; /* Adjust width as needed */
+}
+
+/* Additional styling for action field */
+.action {
+    width: 120px; /* Adjust width as needed */
+}
+
+table img{
+    width: 300px; /* Adjust width as needed */
+
+}
+
+/* You can adjust these widths according to your design requirements */
+
+
+.acceptBtn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(76, 250, 81);
+    border-radius: 3em;
+    padding: .3em;
+    text-decoration: none;
+}
+.deleteBtn{
+    color: rgb(250, 250, 250);
+    background-color: rgb(255, 0, 0);
+    border-radius: 3em;
+    padding: .3em;
+    text-decoration: none;
+}
+ 
+ 
+
+
+
+

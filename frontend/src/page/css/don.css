@@ -1,0 +1,192 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+ body{
+    background: url(../img/Home.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ } .top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 999; /* Ensure it's above other content */
+        width: 100%;
+    
+ }
+ 
+ .hadder{
+
+    width: 100%;
+    margin-top: 1em;
+    height: 2em;
+    text-align: right;
+    padding-top: 1.5em;
+    
+    
+}
+
+.hadder a{
+
+    color: white;
+    text-decoration: none;
+    padding: .5em;
+    transition: .5s;
+    font-weight: 500;
+  
+   
+   
+}
+.logo{
+    position: absolute;
+}
+.logo img{
+    width: 18em;
+    margin-top: -3em;
+}
+.hadder a:hover{
+
+background-color: white;
+color: black;
+transition: .5s;
+
+}
+
+.title{
+    margin-top: 7em;
+    text-align: center;
+
+    color: #F7EEDD;
+}
+
+.main{
+ 
+    background: url(../img/cat.png) no-repeat;
+    width: 100%;
+    background-size: 17em;
+    background-position-x: right;
+    background-position-y: bottom;
+    height: 30em;
+}
+
+
+
+.ima{
+ 
+    width: 3em;
+    margin-top: 2em;
+    display: flex;
+    
+    
+
+}
+
+.left{
+    margin-left: 2em;
+    
+}
+
+
+.lbox{
+
+background: url(../img/Rectangle.png) no-repeat;
+width: 21em; ;
+height: 35em;
+padding-top: 2em;
+text-align: center;
+}
+
+.lbox h1{
+    color: #F7EEDD ;
+    font-size: 4em;
+    margin-top: -.05em;
+    margin-bottom: -.5em;
+}
+
+.lbox h2{
+
+    font-size: 3em;
+    color: #F7EEDD ;
+}
+
+.lbox p{
+
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #F7EEDD ;
+    
+}
+/* Search Form */
+.search-form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none; /* Remove default input focus outline */
+  }
+  
+  .search-form .button {
+    padding: 10px 20px;
+    background-color: #2fbfc7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .search-form .button:hover {
+    background-color: #7fa1fa;
+  }
+  
+  /* Reservation Cards */
+.reservation-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .reservation-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .reservation-card:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+  }
+  
+  .reservation-card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .reservation-card p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .reservation-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .reservation-grid {
+      grid-template-columns: 1fr; /* Single column on extra small screens */
+    }
+  }
+  

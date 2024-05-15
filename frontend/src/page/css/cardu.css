@@ -1,0 +1,120 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+ body{
+    background: url(../img/Home.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ 
+ .top{
+    position: sticky;
+    top: 0;
+ }
+ 
+ .hadder{
+
+    width: 100%;
+    margin-top: 1em;
+    height: 2em;
+    text-align: right;
+    padding-top: 1.5em;
+    
+    
+}
+
+.hadder a{
+
+    color: white;
+    text-decoration: none;
+    padding: .5em;
+    transition: .5s;
+    font-weight: 500;
+  
+   
+   
+}
+.logo{
+    position: absolute;
+}
+.logo img{
+    width: 18em;
+    margin-top: -3em;
+}
+.hadder a:hover{
+
+background-color: white;
+color: black;
+transition: .5s;
+
+}
+
+.title{
+    text-align: center;
+
+    color: #F7EEDD;
+}
+
+.left{
+    margin-top: 2em;
+    margin-left: 5em;
+    opacity: .8;
+}
+.left img{
+    width: 25em;
+}
+
+.form{
+    display: flex;
+}
+
+.mid{
+    width: 33em;
+    margin-top: 7em;
+    text-align: center;
+    
+}
+
+.mid p{
+    font-size: .8em;
+}
+
+.mid .long{
+    text-align: center;
+    width: 18em;
+    height: 2.5em;
+    border-radius: 5em;
+    border: #F7EEDD;
+    background-color: #F7EEDD;
+}
+
+.short{
+    text-align: center;
+    width: 10em;
+    height: 2.5em;
+    border-radius: 5em;
+    border: #F7EEDD;
+    background-color: #F7EEDD;
+
+}
+
+.right{
+    margin-top: 15em;
+    margin-left: -2em;
+
+}
+.right img{
+    width: 30em;
+}
+
+.mid .lock{
+    text-align: center;
+    width: 16em;
+    padding: .6em;
+    border-radius: 5em;
+    border: #F7EEDD;
+    background-color: #F7EEDD;
+}
+
+
+

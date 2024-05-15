@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.serch_inpt {
+  margin-right: 25px;
+  width: 300px;
+  font-size: 19px;
+  padding: 3px 10px;
+  border: 2px solid #030e86;
+}
+
+.booknow_blog {
+  background-color: #030e86;
+  border: 2px solid #030e86;
+  color: white;
+  font-weight: bold;
+  padding: 4px 12px;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 3px;
+}
+.booknow_blog:hover {
+  background-color: white;
+  border: 2px solid #030e86;
+  color: #030e86;
+}
+.blog_submin {
+  padding: 25px 12%;
+}
+.blog_main {
+  display: block;
+  align-items: center;
+  background-image: url(./BlogHome/img/Home.jpg);
+  background-size: cover; /* Ensure the background image covers the entire block */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Keep the background fixed while content scrolls */
+}
+
+.actionset_home {
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+.card_blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 35px;
+  border: 0;
+}
+.box_blog {
+  width: 550px;
+  height: auto;
+  background-color: white;
+  border: 2px solid #030e86;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.cat_img_blog {
+  width: 100%;
+  height: 400px;
+}
+.card_contaname {
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.contaent_body {
+  padding: 0 25px;
+}
+.centerbtn_blog {
+  display: flex;
+  color: white;
+  width: 150px;
+  border-radius: 3px;
+  font-weight: bold;
+  border: 2px solid #030e86;
+  font-size: 20px;
+  align-items: center;
+  background-color: #030e86;
+  text-decoration: none;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 4px 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.card_contatopic {
+  font-size: 18px;
+  display: flex;
+  justify-content: end;
+  color: rgb(109, 105, 105);
+  gap: 5px;
+  align-items: center;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+.card_conta {
+  margin: 0 0 8px 0;
+}
+.b_name {
+  text-align: center;
+  margin: 25px 0;
+  text-transform: capitalize;
+  font-size: 45px;
+  color: #030e86;
+}
+.box_view_blog {
+  margin: 50px 0;
+  border: 2px solid #030e86;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.main_page_view {
+  padding: 0 25%;
+}
+.blogname {
+  text-align: center;
+  margin: 25px 0;
+  text-transform: capitalize;
+  font-size: 35px;
+  color: #030e86;
+}
+.blogtopic {
+  margin: 25px 0;
+  text-transform: capitalize;
+  font-size: 35px;
+  color: black;
+  padding: 0 25px;
+}
+.blogpara {
+  margin: 25px 0;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: justify;
+  color: #000000ca;
+  padding: 0 25px;
+}
+.topic_blog {
+  text-align: center;
+  margin: 25px 0;
+  text-transform: capitalize;
+}
+.sub_topic_blog {
+  color: #030e86;
+}
+.item_full_box {
+  display: flex;
+  justify-content: center;
+}
+.item_form_admin {
+  width: 450px;
+  background-color: white;
+  height: auto;
+  padding: 25px;
+  border: 2px solid #030e86;
+}
+.form_box_item_lable {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.form_box_item_input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 4px 10px;
+  font-size: 20px;
+  border: 2px solid #030e86;
+  border-radius: 3px;
+}
+.dwonrep {
+  display: flex;
+  align-items: end;
+  margin-left: auto;
+  margin-bottom: 25px;
+  justify-content: end;
+  color: white;
+  border: 2px solid #030e86;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #030e86;
+  text-decoration: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.admin_form_cneter_btn {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  border: 2px solid #030e86;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #030e86;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 4px 0;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.tbl_data_new {
+  padding: 25px 12% 0 12%;
+}
+.tbl_data {
+  padding: 25px 12%;
+}
+.table_details_admin {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  text-transform: capitalize;
+}
+
+.table_details_admin .admin_tbl_th,
+.table_details_admin .admin_tbl_td {
+  border: 2px solid #030e86;
+  padding: 8px;
+}
+
+.table_details_admin .admin_tbl_th {
+  background-color: #030e86;
+  color: white;
+  font-size: 18px;
+}
+.img_admin_tbl {
+  width: 100px;
+  border-radius: 8px;
+  height: 100px;
+}
+.booknow_btn {
+  text-decoration: none;
+  background-color: #65a4da;
+  border: 2px solid #65a4da;
+  color: white;
+  margin-right: 25px;
+  font-weight: bold;
+  padding: 3px 10px;
+  font-size: 20px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 3px;
+}
+.btn_dash_admin_dlt {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.pen {
+  color: rgb(109, 105, 105);
+  font-weight: bold;
+}
+.conwith {
+  width: 250px;
+}
+.imgview {
+  height: auto;
+  width: 100%;
+}
+.newpdn {
+  padding: 0 20px 20px 0;
+}
+.logo_nav {
+  width: 180px;
+}
+.nav_dis{
+  background-color: #030e86;
+}
+.navbar {
+  color: white;
+  padding: 8px 12%;
+  background-color: #030e8600;
+}
+.navitem_nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_bar_items {
+  display: flex;
+  cursor: pointer;
+  gap: 10px;
+}
+.dwonboxset{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}

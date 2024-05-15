@@ -1,0 +1,100 @@
+body{
+    background: url(../img/Home.jpg) no-repeat;
+    background-size: cover;
+ }
+
+ 
+ 
+ .container {
+    max-width: 400px;
+    margin: 30px auto;
+    background-color:#F7EEDD;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="name"],
+input[type="age"],
+input[type="gender"],
+input[type="breed"],
+input[type="weight"]
+ {
+    width: 100%;
+    padding: 10px; 
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+input[type="submit"] {
+    background-color: #41C9E2;
+    color: rgb(10, 9, 9);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ACE2E1;
+}
+
+.container {
+    background-color: #F7EEDD; /* Light cream background color */
+}
+
+label {
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+ .hadder{
+
+    width: 100%;
+    margin-top: 1em;
+
+    height: 2em;
+    text-align: right;
+    padding-top: 1.5em;
+    
+}
+
+.hadder a{
+
+    color: white;
+    text-decoration: none;
+    padding: .5em;
+    transition: .5s;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+   
+}
+.logo{
+    position: absolute;
+}
+.logo img{
+    width: 18em;
+    margin-top: -3em;
+}
+.hadder a:hover{
+
+background-color: white;
+color: black;
+transition: .5s;
+
+
+}

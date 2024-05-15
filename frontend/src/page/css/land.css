@@ -1,0 +1,43 @@
+.vet-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr)); /* Adjusted grid columns */
+    gap: 20px; /* Reduced gap */
+    width: 80%;
+    height: 80%;
+  }
+  
+  .vet-card {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px; /* Reduced padding */
+    display: flex;
+    flex-direction: column;
+    background: rgb(236, 249, 255, 0.7);
+  }
+  
+  .vet-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .vet-details {
+    flex: 1;
+  }
+  
+  .vet-details h2 {
+    margin-top: 0;
+  }
+  
+  .vet-details p {
+    margin: 5px 0;
+  }
+  
+  .vet-details ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .vet-details li {
+    margin-left: 20px;
+  }
+  

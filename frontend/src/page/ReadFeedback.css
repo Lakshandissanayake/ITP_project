@@ -1,0 +1,163 @@
+.mainTitle{
+    color: wheat;
+    margin-left: 500px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.starContainer{
+    margin-left: 700px;
+    margin-top: 40px;
+}
+
+.addFeedbackButton{
+    background-color: wheat;
+    color: black;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-left: 40em;
+    margin-top: 60px;
+    padding: 10px;
+    border: none;
+}
+
+
+.bodyNew{
+    background: url(./Home.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+ }
+
+ 
+ 
+ .container {
+   width: 400px;
+    margin: 30px auto;
+    background-color:#F7EEDD;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+ .hadder{
+
+    width: 100%;
+    margin-top: 1em;
+
+    height: 2em;
+    text-align: right;
+    padding-top: 1.5em;
+    
+}
+
+.hadder a{
+
+    color: white;
+    text-decoration: none;
+    padding: .5em;
+    transition: .5s;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+   
+}
+.logo{
+    position: absolute;
+}
+.logo img{
+    width: 18em;
+    margin-top: -3em;
+}
+.hadder a:hover{
+
+background-color: white;
+color: black;
+transition: .5s;
+
+
+}
+
+.reviews{
+    margin-top: 100px;
+    padding: 30px;
+    margin-left: 50px;
+   display:flex;
+   
+  
+   
+   
+
+}
+
+
+
+.r1{
+    text-align: center;
+    width: 800px;
+    background-color: #F7EEDD;
+    padding:20px;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-left: 3em;
+  
+}
+
+.feedbackEmail
+{
+    font-size: 20px;
+    margin-top:5px;
+    color:black;
+}
+
+.feedbackImage
+{
+    font-size: 20px;
+    margin-top:5px;
+    color:black;
+}
+
+
+.top{
+    border-bottom: 2px solid rgb(110, 86, 86);
+    margin-bottom: 5px;
+
+}
+
+.r2 img{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 25px;
+    margin-bottom: 1em;
+    
+}
+
+
+
+
+
+.editBtnP{
+    background-color: #41C9E2;
+    color: white;
+    margin-left: 30px;
+    border-radius: 3em;
+   
+    
+}
+
+.deleteBtnP{
+    background: #03517a;
+    color: wheat;
+    margin-left: 30px;
+    margin-top: 1em;
+    border-radius: 3em;
+   
+
+}
+
+
+
+
+
+
